@@ -1,0 +1,10 @@
+<h1>Quotes</h1>
+{% if quotes %}
+    <ul>
+    {% for quote in quotes %}
+        <li><a href="/quotes/{{ quote.id }}/">{{ quote }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No quotes are available.</p>
+{% endif %}

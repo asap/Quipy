@@ -1,4 +1,44 @@
-*.log
-*.pot
-*.pyc
-local_settings.py
+*.py[co]
+
+dev.db
+quipy/quipy/settings/local.py
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# SASS
+.sass-cache
+
+# OS files
+.DS_Store
+Icon?
+._*
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editors
+\#*
+.\#*
+*~
+*.idea
+*.komodoproject
+*.sublime-*
