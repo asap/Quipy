@@ -29,3 +29,8 @@ _Staging_
     $ git push staging develop:master
 
 For further reading, see [Managing Multiple Environemnts for an App](https://devcenter.heroku.com/articles/multiple-environments)
+
+
+Be sure to set an environment variable:
+
+export DJANGO_SETTINGS_MODULE=quipy.settings.local
