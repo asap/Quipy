@@ -3,5 +3,5 @@ distribute==0.6.24
 gunicorn==0.14.2
 psycopg2==2.4.5
 wsgiref==0.1.2
-django-tastypietastypie=0.9.11
-south=0.7.5
+django-tastypie==0.9.11
+south==0.7.5
