@@ -11,6 +11,14 @@ _From the commit logs:_
 
     $ pip install -U virtualenv virtualenvwrapper fabric
 
+You can then import quotes from [The Movie Quotes
+Database](http://www.moviequotedb.com) with the "scrape" command:
+
+    $ ./manage.py scrape monty-python-and-the-holy-grail
+
+The argument is the "short name" of the movie as found in the URL of a page
+at The Movie Quote Database's website.
+
 ## Heroku
 
     $ heroku create --stack cedar --buildpack git@github.com:cbslocal/heroku-buildpack-python.git [name]
