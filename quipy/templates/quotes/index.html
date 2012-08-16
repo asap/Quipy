@@ -2,7 +2,7 @@
 {% if quotes %}
     <ul>
     {% for quote in quotes %}
-        <li><a href="/quotes/{{ quote.id }}/">{{ quote }}</a></li>
+        <li><a href="/quotes/{{ quote.id }}/">{{ quote|safe }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
